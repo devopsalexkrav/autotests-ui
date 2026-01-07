@@ -172,6 +172,12 @@ dmypy.json
 docker-compose.override.yml
 
 # =========================
+# Documentation (local/draft)
+# =========================
+*.md
+*.mdc
+
+# =========================
 # Misc
 # =========================
 *.manifest
