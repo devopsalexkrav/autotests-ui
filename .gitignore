@@ -1,0 +1,181 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# =========================
+# Virtual Environments
+# =========================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+Pipfile.lock
+
+# =========================
+# IDE & Editors
+# =========================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.spyderproject
+.spyproject
+*.sublime-workspace
+*.sublime-project
+
+# =========================
+# Test Reports & Results
+# =========================
+allure-results/
+allure-report/
+reports/
+report/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.coverage
+nosetests.xml
+test-results/
+test-reports/
+junit.xml
+pytest_cache/
+.pytest_cache/
+.hypothesis/
+
+# =========================
+# Screenshots & Videos
+# =========================
+screenshots/
+videos/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.avi
+*.webm
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+log/
+debug.log
+error.log
+selenium.log
+
+# =========================
+# Browser Drivers
+# =========================
+drivers/
+chromedriver*
+geckodriver*
+msedgedriver*
+operadriver*
+*.exe
+!main.exe
+
+# =========================
+# Selenium & WebDriver
+# =========================
+.wdm/
+webdriver_manager/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.local
+.env.*.local
+*.env
+config.local.py
+secrets.py
+credentials.py
+local_settings.py
+
+# =========================
+# Cache & Temp Files
+# =========================
+.cache/
+*.cache
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =========================
+# MyPy & Type Checking
+# =========================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# =========================
+# Tox
+# =========================
+.tox/
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+
+# =========================
+# Misc
+# =========================
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
