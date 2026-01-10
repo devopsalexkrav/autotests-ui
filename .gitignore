@@ -185,3 +185,4 @@ docker-compose.override.yml
 pip-log.txt
 pip-delete-this-directory.txt
 auth_state.json
+browser-state.json
