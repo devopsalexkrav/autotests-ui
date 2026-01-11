@@ -1,6 +1,7 @@
 import pytest
 from playwright.sync_api import Page, expect
-
+from pages.registration_page import RegistrationPage
+from pages.dashboard_page import DashboardPage
 
 @pytest.mark.parametrize(
     "email, password",
@@ -26,3 +27,12 @@ def test_wrong_email_or_password_authorization(chromium_page: Page, email: str, 
     wrong_email_or_password_alert = page.get_by_test_id('login-page-wrong-email-or-password-alert')
     expect(wrong_email_or_password_alert).to_be_visible()
     expect(wrong_email_or_password_alert).to_have_text("Wrong email or password")
+
+@pytest.mark.registration
+@pytest.mark.regression
+def test_successful_registration(registration_page: RegistrationPage, dashboard_page: DashboardPage):
+    registration_page.visit("https://nikita-filonov.github.io/qa-automation-engineer-ui-course/#/auth/registration")
+    registration_page.fill_registration_form("user.name@gmail.com", "username", "password")
+    registration_page.click_registration_button()
+
+    dashboard_page.check_header_title()
